@@ -11,3 +11,36 @@ result = StringVar()
 
 result_label = Label(window, textvariable=result)
 result_label.pack(pady = 20) 
+
+emojis = {
+    "happy": "😊",
+
+    "sad": "😒",
+
+    "excited": "😃",
+
+    "tongue sticking out": "😛",
+
+    "wink": "😉",
+
+    "bored": "😐",
+
+    "confused": "😕",
+
+    "surprised": "😯",
+
+    "cool": "😎",
+
+    "angel": "😇",
+
+    "love": "❤️",
+
+    "angry": "😠",
+
+    "in love": "😍",
+
+    "shy": "😳",
+
+    "laughing": "😂"
+
+}
