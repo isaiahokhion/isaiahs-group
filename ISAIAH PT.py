@@ -51,6 +51,7 @@ def newWindow():
     window2.title("emoji Stuff")
 
     entry_txt = Entry(window2)
+    
     entry_txt.pack()
     window2.mainloop()
 
