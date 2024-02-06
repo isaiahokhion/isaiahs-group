@@ -44,3 +44,38 @@ emojis = {
     "laughing": "😂"
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+search_btn = Button(window, text="Convert", command=lambda: search(entry_txt.get()))
+search_btn.pack()
+
+window2_btn = Button(window, text="Open converter", command=newWindow)
+window2_btn.pack()
+
+window.mainloop()
