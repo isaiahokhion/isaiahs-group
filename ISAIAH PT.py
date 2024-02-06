@@ -55,3 +55,9 @@ def newWindow():
     entry_txt.pack()
     window2.mainloop()
 
+def search(word):
+    if word in emojis:
+        result.set(emojis[word])
+        print(emojis[word])
+    else:
+        result.set("Emoji Not Found")
