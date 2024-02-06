@@ -44,3 +44,12 @@ emojis = {
     "laughing": "😂"
 
 }
+
+def newWindow():
+    window2 = Tk()
+    window2.geometry("400x250")
+    window2.title("emoji Stuff")
+
+    entry_txt = Entry(window2)
+    entry_txt.pack()
+    window2.mainloop()
